@@ -14,6 +14,7 @@ A criação da nossa estante é este Script abaixo, que possui erros que impedem
 
 ### Você consegue encontrá-los?
 Código inicial
+```
 CREATE TABLE Livros (
     livros_id INT PRIMARY KEY,
     titulo VARCHAR(255),
@@ -30,6 +31,7 @@ INSERT INTO Livros (id, titulo, autor, editora, ano_publicacao, isbn) VALUES
 (4, 'The Catcher in the Rye', 'J.D. Salinger', 'Little, Brown and Company', '1951', '9780316769488'),
 (5, '1984', 'George Orwell', 'Companhia Editora Nacional', 1949, '978-85-221-0616-9'),
 (6, 'Percy Jackson e o Ladrão de Raios', 'Rick Riordan', 'Intrínseca', 2005, '9788598078355');
+```
 
 <img src="Parte-1.png">
 <img src="Parte-1-select.png">
@@ -52,6 +54,7 @@ O script abaixo seria para adicionar novos livros na sua biblioteca, mas com as 
 Contamos com você para isso. 
 
 ### O Código Bagunçado:
+```
 INSERT INTO 
 Livros (identificador, titulo, autor, editora, ano_publicacao, isbn, autor_id, editora_id) 
 VALUES 
@@ -60,6 +63,7 @@ VALUES
 (9, 'Vidas Secas', 'Graciliano Ramos', 'Companhia Editora Nacional', 1938, '9788572326972', 3, 3),
 (10, 'O Alienista', 'Machado de Assis', 'Martin Claret', 1882, '9788572327429', 2, 4),
 (11, 'O Cortiço', 'Aluísio Azevedo', 'Penguin Companhia', 1890, '9788579027048', 4, 5),
+```
 (12, 'Dom Casmurro', 'Machado de Assis', 'Penguin Companhia', 1899, '9788583862093', 2, 5),
 (13, 'Macunaíma', 'Mário de Andrade', 'Companhia Editora Nacional', 1928, '9788503012302', 6, 3);
 
