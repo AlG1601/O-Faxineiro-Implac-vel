@@ -31,8 +31,8 @@ INSERT INTO Livros (id, titulo, autor, editora, ano_publicacao, isbn) VALUES
 (5, '1984', 'George Orwell', 'Companhia Editora Nacional', 1949, '978-85-221-0616-9'),
 (6, 'Percy Jackson e o Ladrão de Raios', 'Rick Riordan', 'Intrínseca', 2005, '9788598078355');
 
-<img src="Parte-1">
-<img src="Parte-1-select">
+<img src="Parte-1.png">
+<img src="Parte-1-select.png">
 
 ## Parte 2 - Retirando o pó
 Ainda trabalhando com código acima:
@@ -44,7 +44,7 @@ Ainda trabalhando com código acima:
 
 4. Retire os valores para autores e para as editoras do script inicial e insira-os nas novas tabelas.
 
-<img src="Parte-2">
+<img src="Parte-2.png">
 
 ## Parte 3 - Colocando tudo no lugar
 O script abaixo seria para adicionar novos livros na sua biblioteca, mas com as mudanças feitas para normalização e higienização da base é necessário reestruturar a base abaixo para evitar problemas. 
@@ -63,4 +63,4 @@ VALUES
 (12, 'Dom Casmurro', 'Machado de Assis', 'Penguin Companhia', 1899, '9788583862093', 2, 5),
 (13, 'Macunaíma', 'Mário de Andrade', 'Companhia Editora Nacional', 1928, '9788503012302', 6, 3);
 
-<img src="Parte-3">
+<img src="Parte-3.png">
